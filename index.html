@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-kit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <h1> Drum Kit</h1>
+    <div class="B-container">
+        <div class="keys">
+            <div id="A" class="key"><div>A</div></div>
+            <div id="S" class="key"><div>S</div></div>
+            <div id="D" class="key"><div>D</div></div>
+            <div id="F" class="key"><div>F</div></div>
+            <div id="G" class="key"><div>G</div></div>
+            <div id="H" class="key"><div>H</div></div>
+            <div id="J" class="key"><div>J</div></div>
+            <div id="K" class="key"><div>K</div></div>
+            <div id="L" class="key"><div>L</div></div>
+        </div>
+    </div>
+
+<audio id="A" src="A_clap.wav"></audio>
+
+<audio id="S" src="S_hihat.wav"></audio>
+
+<audio id="D" src="D_kick.wav"></audio>
+
+<audio id="F" src="F_openhat.wav"></audio>
+
+<audio id="G" src="G_boom.wav"></audio>
+
+<audio id="H" src="H_ride.wav"></audio>
+
+<audio id="J" src="J_snare.wav"></audio>
+
+<audio id="K" src="K_tom.wav"></audio>
+
+<audio id="L" src="L_tink.wav"></audio>
+<button id="howToPlayBtn" class="how-to-play-btn">How to Play</button>
+
+
+<div id="howToPlayModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>How to Play the Drum Kit</h2>
+        <p>To play the drum kit, press the corresponding keys on your keyboard or click on the buttons displayed on the screen:</p>
+        <ul>
+            <li><b>A:</b> Clap Sound</li>
+            <li><b>S:</b> Hi-Hat Sound</li>
+            <li><b>D:</b> Kick Sound</li>
+            <li><b>F:</b> Open Hat Sound</li>
+            <li><b>G:</b> Boom Sound</li>
+            <li><b>H:</b> Ride Sound</li>
+            <li><b>J:</b> Snare Sound</li>
+            <li><b>K:</b> Tom Sound</li>
+            <li><b>L:</b> Tink Sound</li>
+        </ul>
+        <p>Enjoy playing the drum kit!</p>
+    </div>
+</div>
+
+
+</body>
+</html>
